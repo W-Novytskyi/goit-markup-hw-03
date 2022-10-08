@@ -1,0 +1,196 @@
+:root {
+--title-text-color: #212121; 
+--primary-text-color: #757575; 
+--accent-text-color: #2196F3;
+--primary-white-color: #FFFFFF;
+--secondary-white-color: #F5F5F5;
+--tertiary-white-color: #F5F4FA;
+--primary-dark-color: #2F303A;
+--contact-footer-color: rgba(255, 255, 255, 0.6);
+--logo-black-color: #000000;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-text-color);
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+ul {
+    list-style: none;
+}
+/* хєдєр */
+.header {
+    background-color:var(--primary-white-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.site-nav .link{
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+.site-nav :hover,
+.site-nav :focus {
+    color: var(--accent-text-color);
+}
+.link-current {
+    color: var(--accent-text-color);
+    text-decoration: none;
+}
+.contact .link{
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+.contact :hover,
+.contact :focus {
+    color: var(--accent-text-color);
+}
+.logo, .logo-black {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.logo {
+    color: var(--accent-text-color);
+    text-decoration: none;
+}
+.logo-black {
+    color: var(--logo-black-color);
+}
+/* мєйн */
+.hero {
+    background-color: var(--primary-dark-color);    
+}
+.hero-title{
+    color: var(--primary-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.5;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.button-hero {
+    font-family: inherit;
+    background-color: var(--accent-text-color);
+    color: var(--primary-white-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+}
+.preference,
+.work {
+    background-color: var(--secondary-white-color);
+}
+.preference {
+    font-size: 14px;
+    line-height: 1.7;
+}
+.preference-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.work-title,
+.team-title{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;   
+}
+.name{
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+.team{
+    background-color: var(--tertiary-white-color);
+    font-size: 16px;
+    line-height: 1.19;
+}
+/* футер */
+footer {
+    background-color: var(--primary-dark-color);
+}
+.logo,
+.logo-white {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.logo {
+    color: var(--accent-text-color);
+    text-decoration: none;
+}
+.logo-white {
+    color: var(--primary-white-color);
+}
+.address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+.map {
+    color: var(--primary-white-color);
+    text-decoration: none;
+}
+.contact-footer {
+    color: var(--contact-footer-color);
+    text-decoration: none;
+}
+.address :hover,
+.address :focus {
+    color: var(--accent-text-color);
+}
+/* portfolio */
+.portfolio {
+    background-color: var(--primary-white-color);
+}
+.button {
+    font-family: 'Roboto', sans-serif;
+    color: var(--title-text-color);
+    background-color: var(--tertiary-white-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;   
+}
+.filter .button:hover,
+.filter .button:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-text-color);
+}
+.list-work{
+    font-size: 16px;
+    line-height: 1.87;
+}
+.title-list {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
