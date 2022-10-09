@@ -204,7 +204,7 @@ footer {
     background-color: var(--primary-dark-color);
     padding: 60px 0;
 }
-.logo,
+.logo-footer,
 .logo-white {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -212,12 +212,14 @@ footer {
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
-.logo {
+.logo-footer {
     color: var(--accent-text-color);
     text-decoration: none;
 }
 .logo-white {
     color: var(--primary-white-color);
+    display: inline-block;
+    margin-bottom: 20px;
 }
 .address {
     font-style: normal;
@@ -230,6 +232,9 @@ footer {
 .map {
     color: var(--primary-white-color);
     text-decoration: none;
+}
+.link-footer:not(:last-child){
+    margin-bottom: 9px;
 }
 .contact-footer {
     color: var(--contact-footer-color);
@@ -246,10 +251,10 @@ footer {
 .filter {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .filter-liste:not(:last-child) {
     margin-right: 8px;
-    margin-bottom: 50px;
 }
 .button {
     font-family: 'Roboto', sans-serif;
