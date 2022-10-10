@@ -41,23 +41,22 @@ padding: 94px 0;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    padding: 24px 0 25px;
     border-bottom:1px solid rgba(236, 236, 236, 1);
 }
 .header-nav{
         display: flex;
         align-items: center;
-        justify-content: space-between
+        justify-content: space-between;
     }
 .nav{
     display: flex;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
 }
 .site-nav {
     display: flex;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
 }
 .link-nav:not(:last-child){
     margin-right: 50px;
@@ -68,6 +67,8 @@ padding: 94px 0;
     justify-content: space-between;
 }
 .site-nav .link{
+    display: block;
+    padding: 32px 0;
     color: var(--title-text-color);
     text-decoration: none;
 }
@@ -76,10 +77,14 @@ padding: 94px 0;
     color: var(--accent-text-color);
 }
 .link-current {
+    display: block;
+    padding: 32px 0;
     color: var(--accent-text-color);
     text-decoration: none;
 }
 .contact .link{
+    display: block;
+    padding: 32px 0;
     color: var(--primary-text-color);
     text-decoration: none;
 }
@@ -147,7 +152,7 @@ padding: 94px 0;
 }
 .preference,
 .work {
-    background-color: var(--secondary-white-color);
+    background-color: var(--primary-white-color);
 }
 .preference{
     font-size: 14px;
@@ -215,11 +220,11 @@ footer {
 .logo-footer {
     color: var(--accent-text-color);
     text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
 }
 .logo-white {
     color: var(--primary-white-color);
-    display: inline-block;
-    margin-bottom: 20px;
 }
 .address {
     font-style: normal;
